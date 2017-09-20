@@ -1,0 +1,15 @@
+/*
+ * A class containing static methods that can be referenced via Lambda expressions
+ */
+public class LambdaStaticReference {
+	
+	// Notice that this method is identical to an interface method in LambdaTest
+	public static boolean test(int a, int b) {
+		return a < b;
+	}
+	
+	// A different behavior. Notice that this method is identical to an interface method in LambdaTest
+	public static boolean sum(int a, int b) {
+		return a + b > 0;
+	}
+}
